@@ -1,0 +1,68 @@
+.category {
+  padding: 40px 0 70px;
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    .circle {
+      width: 20px;
+      height: 40px;
+      border-radius: 4px;
+      background: #db4444;
+    }
+    h5 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      text-align: left;
+      color: #db4444;
+    }
+  }
+  h2 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #000;
+    margin-bottom: 60px;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      width: 170px;
+      height: 145px;
+      border: 1px solid #0000004d;
+      border-radius: 4px;
+      transition: all 0.2s linear;
+      h5 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #000;
+        transition: all 0.2s linear;
+      }
+      &:hover {
+        background: #db4444;
+        border: 1px solid #db4444;
+      }
+      &:hover h5 {
+        color: #fff;
+      }
+    }
+  }
+  hr {
+    margin-top: 70px;
+  }
+}
