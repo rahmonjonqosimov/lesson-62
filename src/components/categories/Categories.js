@@ -1,10 +1,4 @@
 import React from "react";
-import categoryImg1 from "../../images/phone.svg";
-import categoryImg2 from "../../images/computer.svg";
-import categoryImg3 from "../../images/watch.svg";
-import categoryImg4 from "../../images/camera.svg";
-import categoryImg5 from "../../images/headphones.svg";
-import categoryImg6 from "../../images/headphones.svg";
 let categoryBox = [
   {
     id: 1,
