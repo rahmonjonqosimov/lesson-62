@@ -45,6 +45,8 @@
       border: 1px solid #0000004d;
       border-radius: 4px;
       transition: all 0.2s linear;
+      cursor: pointer;
+
       h5 {
         font-size: 16px;
         font-weight: 400;
@@ -59,6 +61,9 @@
       }
       &:hover h5 {
         color: #fff;
+      }
+      &:hover svg {
+        fill: #fff;
       }
     }
   }
